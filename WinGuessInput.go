@@ -2,7 +2,7 @@ package Hangman
 
 import "fmt"
 
-func Input_letterOrWord(listLetterEntered []string) string {
+func Input_letterOrWord() string {
 	fmt.Print("Enter a letter or the word : ")
 	var letter string
 	fmt.Scanln(&letter)
